@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------ Breakpoints (mobile-first; use min-width) ------ */
+/* Small tablets and up */
+@media (min-width: 576px) {
+    
+}
+
+/* Tablets and up */
+@media (min-width: 768px) {
+    .main-container {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+}
+
+/* Small laptops and up */
+@media (min-width: 992px) {
+    /* add layout changes if needed */
+}
+
+/* Desktops and up */
+@media (min-width: 1200px) {
+    /* optional refinements */
+}
+
+/* Large desktops (1440+) */
+@media (min-width: 1440px) {
+    
+
+    
+}
+
+/* Ultra-wide (≥1920px): only if you really want wider content */
+@media (min-width: 1920px) {
+    
+}
+
+/* Sirf desktop screens ke liye (width 1024px ya usse zyada) */
+@media only screen and (min-width: 1024px) {
+    .desktop-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+}
+
+/* Sirf mobile screens ke liye (width 767px ya usse kam) */
+@media only screen and (max-width: 767px) {
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+}

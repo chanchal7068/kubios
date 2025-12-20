@@ -1,0 +1,1131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zilla-slab-light {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.zilla-slab-regular {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.zilla-slab-medium {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.zilla-slab-semibold {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.zilla-slab-bold {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.zilla-slab-light-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.zilla-slab-regular-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.zilla-slab-medium-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.zilla-slab-semibold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.zilla-slab-bold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.primary-heading {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.primary-heading2 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.primary-headingdevelop {
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+}
+
+.primary-heading2pixel {
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+.primary-heading3 {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.primary-heading-power {
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+}
+
+.primary-para {
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(69, 69, 69);
+}
+
+.primary-para-footer {
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(69, 69, 69);
+    margin: 30px 0px;
+}
+
+.primary-para-tick {
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(69, 69, 69);
+    margin-top: 10px;
+}
+
+.primary-para-power {
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+
+.primary-para-fully {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(69, 69, 69);
+}
+
+/*Navigation Section Start*/
+
+#header {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.main-container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* margin-top: 10px; */
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 120px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+a i:hover {
+    color: blue;
+}
+
+.tryBtn {
+    max-width: 115px;
+}
+
+.tryBtn button {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.tryBtn:hover button {
+    background-color: rgb(8, 8, 135);
+    border-radius: 5px;
+    transition: ease 2s;
+}
+
+/*Navigation Section Start*/
+
+
+/*Build Awesome Section Start*/
+
+#buildawessec {
+    background: url('../images/bg-kubio-hero7-1.png');
+}
+
+.buildsecrow {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    /* margin-top: 10px; */
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.bgimg {
+    max-width: 700px;
+}
+
+.bgimg img {
+    width: 100%;
+}
+
+.buldsectwobtn {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.buybtn .btn1 {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* width: 100%; */
+}
+
+.buybtn:hover .btn1 {
+    background-color: rgb(8, 8, 135);
+    border-radius: 5px;
+    transition: ease 2s;
+}
+
+.trybtn .btn2 {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* width: 100%; */
+}
+
+.trybtn:hover .btn2 {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    transition: ease 2s;
+}
+
+/*Build Awesome Section End*/
+
+/*Created By Section Start*/
+
+#createdBy {
+    margin: 100px 0px;
+}
+
+.createdby-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Created By Section End*/
+
+/*Powerful Desing Section Start*/
+
+#powerfulDesign {
+    background: #5246f1;
+}
+
+.PowerfulDesignrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.power-maintxt {
+    margin-top: 100px;
+}
+
+.kubioai h2 {
+    color: white;
+    background: #eb7442;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    max-width: 100px;
+    width: 100%;
+}
+
+.power-img {
+    max-width: 700px;
+    margin-top: 300px;
+}
+
+.power-img img {
+    width: 100%;
+}
+
+.discoverbtn .btn1 {
+    padding: 15px 30px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    max-width: 200px;
+    width: 100%;
+}
+
+.btn1:hover  {
+    background: #5246f1;
+    color: white;
+    border: 1px solid white;
+    transition: ease 2s;
+}
+
+/*Powerful Desing Section End*/
+
+/*Create Entire Section Start*/
+#createentire {
+    background: #f4f4f7;
+}
+
+.createrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createvid {
+    margin-top: 80px;
+}
+
+.createtxt {
+    margin-top: 150px;
+}
+
+.createtick {
+    display: flex;
+    gap: 130px;
+    margin-bottom: 50px;
+}
+
+span {
+    color: blue;
+}
+
+/*Create Entire Section End*/
+
+/*Ready made Section Start*/
+#readymade {
+    margin-top: 100px;
+}
+
+.readymaderow {
+    text-align: center;
+}
+
+.readymadebtngroup {
+    display: flex;
+    justify-content: center;
+}
+
+.readybtngrp1 {
+    padding: 15px 40px;
+    background: white;
+    border: 1px solid rgba(129, 126, 126, 0.2);
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.readybtngrp1:hover {
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px rgb(160, 158, 158);
+}
+
+.readybtngrp2 {
+    width: 100%;
+}
+
+.readybtngrp2 {
+    padding: 15px 40px;
+    background: white;
+    border: 1px solid rgba(129, 126, 126, 0.2);
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 10px;
+    width: 76%;
+}
+
+.readybtngrp2:hover {
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px rgb(160, 158, 158);
+}
+
+.readymadeimggroup {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+
+.readymadeimg1 {
+    max-width: 400px;
+    position: absolute;
+    left: 40px;
+    box-shadow: 5px 5px 10px rgb(160, 158, 158);
+}
+
+.readymadeimg1 img {
+    width: 100%;
+}
+
+.readymadeimg2 {
+    max-width: 400px;
+    position: absolute;
+    left: 275px;
+    top: 148px;
+    box-shadow: 5px 5px 10px rgb(160, 158, 158);
+    z-index: -10;
+}
+
+.readymadeimg2 img {
+    width: 100%;
+}
+
+.readymadeimg3 {
+    max-width: 400px;
+    position: absolute;
+    left: 640px;
+    box-shadow: 5px 5px 10px rgb(160, 158, 158);
+}
+
+.readymadeimg3 img {
+    width: 100%;
+}
+
+/*Ready made Section End*/
+
+/*Fully customizable blocks Section Start*/
+#fullycustomizable {
+    margin-top: 500px;
+}
+
+.fullybtn1 {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.fullybtn1:hover {
+    background-color: rgb(8, 8, 135);
+    border-radius: 5px;
+    transition: ease 2s;
+}
+
+.fullyimg {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.fullyimg1 {
+    max-width: 900px;
+    box-shadow: 10px 10px 50px rgb(160, 158, 158);
+    margin-bottom: 20px;
+
+}
+
+.fullyimg1 img {
+    width: 100%;
+}
+
+.fullycarousel1 {
+    position: absolute;
+    left: 380px;
+    top: -45px;
+    max-width: 100px;
+}
+
+.fullycarousel1 img {
+    width: 100%;
+    box-shadow: 5px 5px 20px rgb(160, 158, 158);
+}
+
+.fullysocial2 {
+    position: absolute;
+    left: 135px;
+    top: 85px;
+}
+
+.fullytab3 {
+    position: absolute;
+    left: 50px;
+    top: 240px;
+}
+
+.fullypricing4 {
+    position: absolute;
+    left: 165px;
+    top: 445px;
+}
+
+.fullycollage5 {
+    position: absolute;
+    left: 330px;
+    top: 365px;
+}
+
+.fullyslidebar6 {
+    position: absolute;
+    left: 1044px;
+    top: -10px;
+}
+
+.accordion7 {
+    position: absolute;
+    left: 1098px;
+    top: 235px;
+}
+
+.counter8 {
+    position: absolute;
+    left: 950px;
+    top: 350px;
+}
+
+.flipbox9 {
+    position: absolute;
+    left: 1085px;
+    top: 445px;
+}
+
+/*Fully customizable blocks Section End*/
+
+
+/*Let Start Section Start*/
+#LetStart {
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(67, 60, 159, 0.9), rgba(67, 60, 159, 0.9)),
+        url('../images/lets\ bg-cta.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#LetStarts {
+    background-image: linear-gradient(rgba(67, 60, 159, 0.9), rgba(67, 60, 159, 0.9)),
+        url('../images/lets\ bg-cta.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.letstartrrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.letstart-txt {
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.online {
+    background: white;
+    padding: 15px 35px;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.online:hover {
+    background-color: rgb(8, 8, 135);
+    border: 2px solid white;
+    transition: ease-in 1s;
+    color: white;
+}
+
+.now {
+    background: #eb7442;
+    color: white;
+    padding: 15px 35px;
+    border: 1px solid #eb7442;
+    margin-left: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.now:hover {
+    background: transparent;
+    border: 2px solid white;
+    transition: ease-in 1s;
+    color: white;
+}
+
+.noww {
+    background: #eb7442;
+    color: white;
+    padding: 15px 35px;
+    border: 1px solid #eb7442;
+    margin-right: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.noww:hover {
+    background: transparent;
+    border: 2px solid white;
+    transition: ease-in 1s;
+    color: white;
+}
+
+/*Let Start Section End*/
+
+
+/*Features That Section Start*/
+#FeatureThat {
+    background: #f4f4f7;
+}
+
+.featurerow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.featuretxt {
+    margin-top: 150px;
+}
+
+.featureimg1 {
+    max-width: 550px;
+}
+
+.featureimg1 img {
+    width: 100%;
+    box-shadow: 5px 5px 20px rgb(160, 158, 158);
+}
+
+.featureimg2 {
+    max-width: 500px;
+    position: absolute;
+    bottom: -5px;
+    right: 45px;
+}
+
+.featureimg2 img {
+    width: 100%;
+    box-shadow: 5px 5px 20px rgb(160, 158, 158);
+}
+
+/*Features That Section End*/
+
+
+/*Pixel Perfect Section Start*/
+#PixelPerfect {
+    margin-top: 50px;
+    background: #5246f1;
+}
+
+.pixelrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    gap: 280px;
+}
+
+.pixelgrpimg {
+    margin-top: 50px;
+
+}
+
+.pixel1img {
+    max-width: 200px;
+}
+
+.pixel1img img {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.pixel2img {
+    max-width: 200px;
+    position: absolute;
+    top: 160px;
+    left: 300px;
+}
+
+.pixel2img img {
+    width: 100%;
+}
+
+/*Pixel Perfect Section End*/
+
+/*Responsive Out Section Start*/
+#ResponsiveOut {
+    background: #15192b;
+}
+
+.responsiverow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.responsivetxt {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.responsivegrpimg {
+    margin-top: 80px;
+    max-width: 850px;
+    margin-left: 265px;
+    margin-bottom: 50px;
+}
+
+.responsivegrpimg img {
+    width: 100%;
+}
+
+.responsivegrpimg2 {
+    max-width: 250px;
+    position: absolute;
+    top: 370px;
+    left: 120px;
+}
+
+.responsivegrpimg2 img {
+    width: 100%;
+}
+
+/*Responsive Out Section End*/
+
+/*Starter sites Section Start*/
+#StarterSites {
+    background: #f4f4f7;
+}
+
+.startersitesrow {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.startertxt {
+    margin-top: 100px;
+}
+
+.starterimg1grp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 50px 0px;
+}
+
+.starter1 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.starter1 img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.7s ease;
+}
+
+.starter1:hover img {
+    top: -32%;
+}
+
+.starter2 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.starter2 img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.7s ease;
+}
+
+.starter2:hover img {
+    top: -11%;
+}
+
+.starter3 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.starter3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.starter4 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.starter4 img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.7s ease;
+}
+
+.starter4:hover img {
+    top: -35%;
+}
+
+.starterimg2grp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.starter8 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.starter8 img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.7s ease;
+}
+
+.starter8:hover img {
+    top: -32%;
+}
+
+.starter9 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.starter9 img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.7s ease;
+}
+
+.starter9:hover img {
+    top: -35%;
+}
+
+.starterbtn {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.starterbtn:hover {
+    background-color: rgb(8, 8, 135);
+    border-radius: 5px;
+    transition: ease 2s;
+}
+
+/*Starter sites Section End*/
+
+/*Count on Kubio Section Start*/
+#CountonKubio {
+    background: #5246f1;
+}
+
+.countonrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counttxt {
+    margin: 80px 0px;
+}
+
+.counterboxgrp {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(194, 188, 188);
+}
+
+.counterbox1 {
+    border-right: 1px solid rgb(194, 188, 188);
+}
+
+.counterbox1:hover {
+    background: rgba(24, 24, 24, 0.8);
+    border-right: 1px solid rgba(24, 24, 24, 0.8);
+}
+
+.countboxtxt {
+    padding: 40px;
+
+}
+
+.countboxtxt4 {
+    margin: 40px;
+}
+
+.counterbox4:hover {
+    background: rgba(24, 24, 24, 0.8);
+    border-right: 1px solid rgba(24, 24, 24, 0.8);
+}
+
+/*Count on Kubio Section End*/
+
+/*Need WordPress Section Start*/
+#NeedWordPress {
+    margin: 80px 0px;
+}
+
+.NeedwordPressrow {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.seebtnreco {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.seebtnreco:hover {
+    background-color: rgb(8, 8, 135);
+    border-radius: 5px;
+    transition: ease 2s;
+}
+/*Need WordPress Section ENd*/
+
+/*Footer Section Start*/
+#footersec {
+    background: #f4f4f7;
+}
+
+.footerrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(156, 155, 155, 0.8);
+    
+}
+
+.footerlogokubio {
+    max-width: 200px;
+    margin-top: 100px;
+}
+
+.footerlogokubio img {
+    width: 100%;
+}
+
+.footersocialgrplogo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.facebook a {
+    margin-left: 0px;
+}
+
+.facebookimg {
+    font-size: 35px;
+    background: white;
+    color: blue;
+}
+
+.footeremailbox {
+    margin-top: 30px;
+    background: white;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.15);
+}
+
+.footeremail {
+    padding: 20px;
+    border: none;
+    margin-left: 10px;
+    outline: none;
+    font-size: 17px;
+}
+
+.subscribebtn {
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    background: #eb7442;
+    margin-left: 130px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribebtn:hover {
+    background-color: blue;
+    transition: ease-in-out 0.5s;
+}
+
+.tickcheck {
+        margin-right: 5px;
+        margin-top: 15px;
+}
+
+.footersecspan {
+    color: rgb(71, 70, 70);
+    font-weight: 600;
+}
+
+.footernavigation {
+    display: flex;
+    justify-self: center;
+    padding: 20px;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.footernav ul li {
+    display: inline;
+}
+
+.footernav ul li a {
+    margin-left: 40px;
+}
+
+/*Footer Section End*/
+
+/*Develop Section Start*/
+#Developsec {
+    background: black;
+}
+
+.developrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.developtxt {
+    margin: 10px 0px;
+}
+
+/*Develop Section End*/
+
